@@ -1,0 +1,142 @@
+{
+    "categorias" : {
+        "electronicos": [
+            { 
+                "id": 1, 
+                "articulo": "iPhone 11", 
+                "cantidadBoletos": 100,
+                "vendidos": 1,
+                "sorteo": "25/02/2020",
+                "img":"/productos/iphone11.jpg" 
+            },
+            { 
+                "id": 2, 
+                "articulo": "iMac", 
+                "cantidadBoletos": 100,
+                "vendidos": 50,
+                "sorteo": "28/02/2020",
+                "img":"/productos/imac.jpg" 
+            },
+            { 
+                "id": 3, 
+                "articulo": "Controlador DJ", 
+                "cantidadBoletos": 100,
+                "vendidos": 90,
+                "sorteo": "1/03/2020",
+                "img":"/productos/dj.jpg" 
+            }
+        ],
+        "viajes": [
+            { 
+                "id": 4, 
+                "articulo": "Cancún", 
+                "cantidadBoletos": 100,
+                "vendidos": 1,
+                "sorteo": "25/02/2020",
+                "img":"/productos/cancun.jpg"
+            },
+            { 
+                "id": 5, 
+                "articulo": "Europa", 
+                "cantidadBoletos": 100,
+                "vendidos": 50,
+                "sorteo": "28/02/2020",
+                "img":"/productos/europa.jpg" 
+            },
+            { 
+                "id": 6, 
+                "articulo": "Cuba", 
+                "cantidadBoletos": 100,
+                "vendidos": 90,
+                "sorteo": "1/03/2020",
+                "img":"/productos/cuba.jpg" 
+            }
+        ],
+        "muebles": [
+            { 
+                "id": 7, 
+                "articulo": "Comedor", 
+                "cantidadBoletos": 100,
+                "vendidos": 1,
+                "sorteo": "25/02/2020",
+                "img":"/productos/comedor.jpg" 
+            },
+            { 
+                "id": 8, 
+                "articulo": "Sala", 
+                "cantidadBoletos": 100,
+                "vendidos": 50,
+                "sorteo": "28/02/2020",
+                "img":"/productos/sala.jpg" 
+            },
+            { 
+                "id": 9, 
+                "articulo": "Cocina", 
+                "cantidadBoletos": 100,
+                "vendidos": 90,
+                "sorteo": "1/03/2020",
+                "img":"/productos/cocina.jpg" 
+            }
+        ],
+        "vehiculo": [
+            { 
+                "id": 10, 
+                "articulo": "Auto", 
+                "cantidadBoletos": 100,
+                "vendidos": 1,
+                "sorteo": "25/02/2020",
+                "img":"/productos/auto.jpg" 
+            },
+            { 
+                "id": 11, 
+                "articulo": "Motocicleta", 
+                "cantidadBoletos": 100,
+                "vendidos": 50,
+                "sorteo": "28/02/2020",
+                "img":"/productos/moto.jpg" 
+            },
+            { 
+                "id": 12, 
+                "articulo": "Scooter", 
+                "cantidadBoletos": 100,
+                "vendidos": 90,
+                "sorteo": "1/03/2020",
+                "img":"/productos/scooter.jpg" 
+            }
+        ],
+        "hotSale":[
+            { 
+                "id": 2, 
+                "articulo": "iMac", 
+                "cantidadBoletos": 100,
+                "vendidos": 10,
+                "sorteo": "28/02/2020",
+                "img":"/productos/imac.jpg"
+            },
+            { 
+                "id": 12, 
+                "articulo": "Scooter", 
+                "cantidadBoletos": 100,
+                "vendidos": 40,
+                "sorteo": "1/03/2020",
+                "img":"/productos/scooter.jpg" 
+            },
+            { 
+                "id": 5, 
+                "articulo": "Europa", 
+                "cantidadBoletos": 100,
+                "vendidos": 60,
+                "sorteo": "28/02/2020",
+                "img":"/productos/europa.jpg" 
+            },
+            { 
+                "id": 8, 
+                "articulo": "Sala", 
+                "cantidadBoletos": 100,
+                "vendidos": 90,
+                "sorteo": "28/02/2020",
+                "img":"/productos/sala.jpg" 
+            }
+        ]
+    }
+}

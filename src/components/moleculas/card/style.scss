@@ -1,0 +1,54 @@
+@import '../../../scss/variables.scss';
+.MuiPaper-elevation3{
+    @include transition;
+    &:hover{
+        box-shadow: 1px 4px 8px 2px rgba(0,0,0,0.2)
+    }
+}
+.card{
+    cursor: pointer;
+    position: relative;
+    .descripcion{
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagen{
+        margin: 0;
+        img{
+            height: 150px;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .flag{
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70px;
+        height: 70px;
+        background-color: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &[theme=success]{
+            background-color: $success;
+        }
+        &[theme=alert]{
+            background-color: $alert;
+        }
+        &[theme=warning]{
+            background-color: $warning;
+        }
+    }
+}
+[ellipsis=true]{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

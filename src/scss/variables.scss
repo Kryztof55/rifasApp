@@ -1,0 +1,21 @@
+$primary: #00A69C !important;;
+$primaryHover: #07877e !important;
+$alert:#f24f4f !important;
+$success: #34b349 !important;
+$warning: #ebd953 !important;
+/* Grises */
+$gray: #d8d8d8;
+$lightGray: #fefefe;
+$darkGray: #838383;
+
+
+/* breackpoints */
+$n-tablet:(min-width: 768px);
+$n-portrait:(min-width: 1024px);
+$n-desktop:(min-width: 1440px);
+$n-full:(min-width: 1920px);
+
+/* Mixins */
+@mixin transition{
+    transition: all 320ms ease-in-out;
+}

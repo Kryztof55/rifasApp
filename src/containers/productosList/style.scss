@@ -1,0 +1,22 @@
+@import '../../scss/variables.scss';
+
+.ContainerProductList{
+
+}
+
+
+/* 
+$n-tablet:(min-width: 768px);
+$n-portrait:(min-width: 1024px);
+$n-desktop:(min-width: 1440px);
+$n-full:(min-width: 1920px); 
+*/
+@media #{$n-tablet}{
+    .ContainerProductList{
+        margin-top: 50px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+}
